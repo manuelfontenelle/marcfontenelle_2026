@@ -1,6 +1,8 @@
 import { Resend } from "resend";
 import { NextResponse } from "next/server";
 
+const RESEND_FROM_EMAIL = "Contact Marc Fontenelle <onboarding@resend.dev>";
+
 export async function POST(request: Request) {
 	const { email, message } = await request.json();
 
@@ -19,7 +21,7 @@ export async function POST(request: Request) {
 
 	try {
 		await resend.emails.send({
-			from: process.env.RESEND_FROM_EMAIL || "Contact <onboarding@resend.dev>",
+			from: RESEND_FROM_EMAIL,
 			to: process.env.CONTACT_EMAIL || "marc.fontenelle.pro@gmail.com",
 			replyTo: email,
 			subject: `Message de ${email} - Marc Fontenelle`,
