@@ -65,7 +65,7 @@ function buildHomeGridItem(slot: HomeSlot): WorksGridItem {
 }
 
 export function normalizeProjectSlug(slug: string): string {
-	return decodeURIComponent(slug);
+	return decodeURIComponent(slug).normalize("NFC");
 }
 
 export function getProjectBySlug(slug: string): Project | undefined {

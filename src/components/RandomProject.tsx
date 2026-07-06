@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
 	createContext,
+	useCallback,
 	useContext,
 	useEffect,
 	useState,
@@ -16,10 +17,25 @@ import {
 	normalizeProjectSlug,
 	projects,
 } from "@/lib/projects";
-import { pickNextUnvisitedProject } from "@/lib/projectNavigation";
+import {
+	getPreviousProject,
+	pickNextUnvisitedProject,
+	recordProjectInHistory,
+	storePreviousForProject,
+} from "@/lib/projectNavigation";
 import ArrowIcon from "@/components/ArrowIcon";
 
-const NextProjectContext = createContext<Project | null>(null);
+type ProjectNavContextValue = {
+	next: Project | null;
+	previous: Project | null;
+	registerNextNavigation: (targetSlug: string) => void;
+};
+
+const ProjectNavContext = createContext<ProjectNavContextValue>({
+	next: null,
+	previous: null,
+	registerNextNavigation: () => {},
+});
 
 export function ProjectNextProvider({
 	currentSlug,
@@ -29,36 +45,59 @@ export function ProjectNextProvider({
 	children: ReactNode;
 }) {
 	const pathname = usePathname();
-	const [nextProject, setNextProject] = useState<Project | null>(null);
+	const [next, setNext] = useState<Project | null>(null);
+	const [previous, setPrevious] = useState<Project | null>(null);
+
+	const registerNextNavigation = useCallback(
+		(targetSlug: string) => {
+			storePreviousForProject(targetSlug, currentSlug);
+		},
+		[currentSlug],
+	);
 
 	useEffect(() => {
 		const current = normalizeProjectSlug(currentSlug);
-		let next = pickNextUnvisitedProject(currentSlug);
+		const previousProject = getPreviousProject(currentSlug);
+		recordProjectInHistory(currentSlug);
 
-		if (next.slug === current || getProjectPath(next.slug) === pathname) {
+		let nextProject = pickNextUnvisitedProject(currentSlug);
+
+		if (
+			nextProject.slug === current ||
+			getProjectPath(nextProject.slug) === pathname
+		) {
 			const alternatives = projects.filter((project) => project.slug !== current);
-			next = alternatives[Math.floor(Math.random() * alternatives.length)] ?? next;
+			nextProject =
+				alternatives[Math.floor(Math.random() * alternatives.length)] ??
+				nextProject;
 		}
 
-		setNextProject(next);
+		setPrevious(previousProject);
+		setNext(nextProject);
 	}, [currentSlug, pathname]);
 
 	return (
-		<NextProjectContext.Provider value={nextProject}>
+		<ProjectNavContext.Provider
+			value={{ next, previous, registerNextNavigation }}
+		>
 			{children}
-		</NextProjectContext.Provider>
+		</ProjectNavContext.Provider>
 	);
 }
 
 export function NextProjectBackLink() {
-	const nextProject = useContext(NextProjectContext);
+	const { next, registerNextNavigation } = useContext(ProjectNavContext);
 
-	if (!nextProject) {
+	if (!next) {
 		return null;
 	}
 
 	return (
-		<Link href={getProjectPath(nextProject.slug)} className="right-txt">
+		<Link
+			href={getProjectPath(next.slug)}
+			className="right-txt"
+			onClick={() => registerNextNavigation(next.slug)}
+		>
 			<ArrowIcon direction="right" />
 			Projet Suivant
 		</Link>
@@ -66,21 +105,40 @@ export function NextProjectBackLink() {
 }
 
 export default function RandomProject() {
-	const nextProject = useContext(NextProjectContext);
+	const { next, previous, registerNextNavigation } =
+		useContext(ProjectNavContext);
 
-	if (!nextProject) {
+	if (!next && !previous) {
 		return <div className="random-work" aria-hidden="true" />;
 	}
 
 	return (
 		<div className="random-work">
-			<Link href={getProjectPath(nextProject.slug)} className="right-txt">
-				<ArrowIcon direction="right" />
-				Projet Suivant
-			</Link>
-			<Link href={getProjectPath(nextProject.slug)} className="left-txt">
-				{nextProject.title || formatSlugAsTitle(nextProject.slug)}
-			</Link>
+			{previous && (
+				<Link href={getProjectPath(previous.slug)} className="prev-txt">
+					<ArrowIcon direction="left" />
+					Projet Précédent
+				</Link>
+			)}
+			{next && (
+				<>
+					<Link
+						href={getProjectPath(next.slug)}
+						className="right-txt"
+						onClick={() => registerNextNavigation(next.slug)}
+					>
+						<ArrowIcon direction="right" />
+						Projet Suivant
+					</Link>
+					<Link
+						href={getProjectPath(next.slug)}
+						className="left-txt"
+						onClick={() => registerNextNavigation(next.slug)}
+					>
+						{next.title || formatSlugAsTitle(next.slug)}
+					</Link>
+				</>
+			)}
 		</div>
 	);
 }
