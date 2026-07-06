@@ -1,0 +1,326 @@
+[
+  {
+    "slug": "lausanne-jardin",
+    "title": "Lausanne Jardin",
+    "shortDesc": "Course de légumes - 2004",
+    "previewImage": "/images/previews/preview_lausanne-jardin.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": ""
+  },
+  {
+    "slug": "le-flipot",
+    "title": "LE FLIPOT",
+    "shortDesc": "Sculpture - 2005",
+    "previewImage": "/images/previews/preview_le-flipot.jpg",
+    "special": true,
+    "side": "right",
+    "rowClass": ""
+  },
+  {
+    "slug": "le-jardinier",
+    "title": "Le Jardinier, l’Artiste & l’Ingénieur",
+    "shortDesc": "Grès émaillé - 2001",
+    "previewImage": "/images/previews/preview_le-jardinier-l-artiste-&-l-ingenieur.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "fontaine-mairie-de-mauregard",
+    "title": "Aménagement des bassins & abords pour pièces d’eau",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_fontaine-mauregard.jpg",
+    "special": false,
+    "side": "right",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "skolem",
+    "title": "Skolem",
+    "shortDesc": "Sculpture en bronze - 2007",
+    "previewImage": "/images/previews/preview_skolem.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "bouche-oreille",
+    "title": "Bouche oreille",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_bouche-oreille.jpg",
+    "special": true,
+    "side": "right",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "disque-double",
+    "title": "Disque Double",
+    "shortDesc": "Faïence émaillée OR rouge 18 carats - 2002",
+    "previewImage": "/images/previews/preview_disque-double.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "sans-titre",
+    "title": "Sans titre",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_sans-titre.jpg",
+    "special": false,
+    "side": "right",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "deluxe-rose-&-bleue",
+    "title": "Deluxe Rose & Bleue",
+    "shortDesc": "Briques émaillées montées - 2012",
+    "previewImage": "/images/previews/preview_deluxe-rose-&-bleue.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "lumps-bumps-and-windy-too",
+    "title": "Lumps Bumps and Windy Too",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_lumps-bumps-and-windy-too.jpg",
+    "special": true,
+    "side": "right",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "jardinière",
+    "title": "Jardinière",
+    "shortDesc": "Projet maquette - 2015",
+    "previewImage": "/images/previews/preview_jardiniere.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "palme-jetfin-&-porte-palme",
+    "title": "Palme Jetfin & porte palme",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_palme-jetfin-&-porte-palme.jpg",
+    "special": false,
+    "side": "right",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "pet-&-troll",
+    "title": "Pet & Troll",
+    "shortDesc": "Biennale internationale d’Anglet - 2007",
+    "previewImage": "/images/previews/preview_pet-&-troll.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "sculpture-portable",
+    "title": "Sculpture portable",
+    "shortDesc": "",
+    "previewImage": "/images/works/sculpture-portable/sculpture-portable.jpg",
+    "special": true,
+    "side": "right",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "sculpture-porcelaine",
+    "title": "Sculpture Porcelaine",
+    "shortDesc": "Porcelaine - 2005",
+    "previewImage": "/images/previews/preview_sculpture-porcelaine.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "gaufrier",
+    "title": "Gaufrier",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_gaufrier.jpg",
+    "special": false,
+    "side": "right",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "mairie-beganne",
+    "title": "Aménagement paysager",
+    "shortDesc": "Oeuvre in-situ - 2004",
+    "previewImage": "/images/previews/preview_mairie-beganne.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "pense-bête",
+    "title": "Pense bête",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_pense-bete.jpg",
+    "special": true,
+    "side": "right",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "cod",
+    "title": "C.O.D & une transaction dans l’espace, l’espace d’une transaction",
+    "shortDesc": "Exposition Agence Immobiliere - 2004",
+    "previewImage": "/images/previews/preview_cod.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "étagère",
+    "title": "étagère",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_etagere.jpg",
+    "special": false,
+    "side": "right",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "jet-fin",
+    "title": "Jet-fin",
+    "shortDesc": "Photo - 2015",
+    "previewImage": "/images/previews/preview_jet-fin.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "occupation-des-sols",
+    "title": "Occupation des sols",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_occupation-des-sols.jpg",
+    "special": true,
+    "side": "right",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "sculpture-faïence",
+    "title": "Sculpture Faïence",
+    "shortDesc": "Faïence - 2005",
+    "previewImage": "/images/previews/preview_sculpture-faïence.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "espaces-combinés-turbibulle-&-turbo-mollo",
+    "title": "Espaces combinés, Turbibulle & Turbo-mollo",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_turbibulle.jpg",
+    "special": false,
+    "side": "right",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "volume-en-briques",
+    "title": "Volume en briques",
+    "shortDesc": "Briques & résine époxy - 2011",
+    "previewImage": "/images/previews/preview_volume-en-briques.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "os",
+    "title": "Os",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_os.jpg",
+    "special": true,
+    "side": "right",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "polyplac-&-velamen",
+    "title": "Polyplac & Velamen",
+    "shortDesc": "Contreplaqué découpé, cire d’abeille - 2020",
+    "previewImage": "/images/previews/preview_polyplac-&-velamen.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "mémo-calendar",
+    "title": "Mémo calendar",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_memo-calendar.jpg",
+    "special": false,
+    "side": "right",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "bat",
+    "title": "Bat",
+    "shortDesc": "Bois, filetages, écrous - 2021",
+    "previewImage": "/images/previews/preview_bat.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "wing",
+    "title": "Wing",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_wing.jpg",
+    "special": true,
+    "side": "right",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "phenemenon",
+    "title": "Phenemenon",
+    "shortDesc": "Dessin encre & stylo - 2020",
+    "previewImage": "/images/previews/preview_phenemenon.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "disque",
+    "title": "Disque",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_disque.jpg",
+    "special": false,
+    "side": "right",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "toupille",
+    "title": "Toupille",
+    "shortDesc": "Dessin, aquarelle - 2021",
+    "previewImage": "/images/previews/preview_toupille.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "knights",
+    "title": "Knights",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_knights.jpg",
+    "special": true,
+    "side": "right",
+    "rowClass": " mt"
+  },
+  {
+    "slug": "organe",
+    "title": "Organe",
+    "shortDesc": "Dessin crayon, encre - 2015",
+    "previewImage": "/images/previews/preview_organe.jpg",
+    "special": false,
+    "side": "left",
+    "rowClass": " decal mt"
+  },
+  {
+    "slug": "wings",
+    "title": "Wings",
+    "shortDesc": "",
+    "previewImage": "/images/previews/preview_wings.jpg",
+    "special": false,
+    "side": "right",
+    "rowClass": " decal mt"
+  }
+]
