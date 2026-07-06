@@ -64,8 +64,12 @@ function buildHomeGridItem(slot: HomeSlot): WorksGridItem {
 	};
 }
 
+export function normalizeProjectSlug(slug: string): string {
+	return decodeURIComponent(slug);
+}
+
 export function getProjectBySlug(slug: string): Project | undefined {
-	const decoded = decodeURIComponent(slug);
+	const decoded = normalizeProjectSlug(slug);
 	return projects.find((p) => p.slug === decoded);
 }
 
@@ -77,7 +81,11 @@ export function normalizeDescription(description: string): string[] {
 	return description
 		.split(/\n\s*\n+/)
 		.map((paragraph) =>
-			paragraph.replace(/\n\s*/g, " ").replace(/\s+/g, " ").trim(),
+			paragraph
+				.split("\n")
+				.map((line) => line.replace(/\s+/g, " ").trim())
+				.join("\n")
+				.trim(),
 		)
 		.filter(Boolean);
 }

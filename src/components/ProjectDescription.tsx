@@ -30,3 +30,14 @@ export function renderDescriptionWithLinks(text: string): ReactNode[] {
 
 	return parts.length > 0 ? parts : [text];
 }
+
+export function renderDescriptionParagraph(text: string): ReactNode {
+	const lines = text.split("\n");
+
+	return lines.map((line, lineIndex) => (
+		<span key={lineIndex}>
+			{renderDescriptionWithLinks(line)}
+			{lineIndex < lines.length - 1 && <br />}
+		</span>
+	));
+}

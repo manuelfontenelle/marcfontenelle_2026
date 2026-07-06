@@ -88,7 +88,7 @@ body.slide-in {
   justify-content: center;
 }
 .intro__bio__title {
-  font-size: 32px;
+  font-size: 42.24px;
   line-height: 1em;
   text-transform: uppercase;
   text-align: left;
@@ -199,7 +199,7 @@ body.slide-in {
 .intro__bandeau-texte__bloc-titre {
   font-weight: 600;
   width: 50%;
-  font-size: 36px;
+  font-size: 47.52px;
   text-transform: uppercase;
   text-align: left;
   line-height: 1em;
@@ -434,17 +434,24 @@ footer .copyright #yearDisplay {
 }
 .work-single .bloc-pre-detail__bloc2 .right-txt {
   text-align: right;
-  font-size: 16px;
+  font-size: 11.2px;
   line-height: 1em;
   font-weight: 600;
   opacity: 0.75;
-  padding: 20px 0px;
+  padding: 0;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 7px;
   text-transform: uppercase;
   position: relative;
   flex-shrink: 0;
+}
+@media (min-width: 992px) {
+  .work-single .bloc-pre-detail__bloc2 .right-txt {
+    font-size: 16px;
+    padding: 20px 0px;
+    gap: 10px;
+  }
 }
 .work-single .bloc-pre-detail__bloc2 .right-txt:hover {
   opacity: 1;
@@ -462,7 +469,7 @@ footer .copyright #yearDisplay {
   bottom: 10px;
 }
 .work-single .bloc-pre-detail .title-project {
-  font-size: 30px;
+  font-size: 39.6px;
   line-height: 1em;
   text-transform: uppercase;
   text-align: left;
@@ -730,7 +737,7 @@ footer .copyright #yearDisplay {
 .random-work .left-txt {
   display: block;
   padding-top: 10vh;
-  font-size: 32px;
+  font-size: 42.24px;
   font-weight: 600;
   line-height: 1.1em;
 }
@@ -742,17 +749,24 @@ footer .copyright #yearDisplay {
 }
 .random-work .right-txt {
   text-align: right;
-  font-size: 16px;
+  font-size: 11.2px;
   line-height: 1em;
   position: absolute;
   right: 0;
   top: 0;
   font-weight: 600;
   opacity: 0.75;
-  padding: 20px 0px;
+  padding: 0;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 7px;
+}
+@media (min-width: 992px) {
+  .random-work .right-txt {
+    font-size: 16px;
+    padding: 20px 0px;
+    gap: 10px;
+  }
 }
 .random-work .right-txt:hover {
   opacity: 1;
@@ -791,6 +805,18 @@ footer .copyright #yearDisplay {
   }
 }
 
+.work-single .bloc-pre-detail__bloc2 .right-txt .nav-arrow,
+.random-work .right-txt .nav-arrow {
+  width: 8.4px;
+}
+
+@media (min-width: 992px) {
+  .work-single .bloc-pre-detail__bloc2 .right-txt .nav-arrow,
+  .random-work .right-txt .nav-arrow {
+    width: 14px;
+  }
+}
+
 @media (min-width: 992px) {
   .works-container {
     margin-bottom: 10vh;
@@ -804,7 +830,7 @@ footer .copyright #yearDisplay {
 
 .title-cat {
   font-family: "GeneralSans-Variable";
-  font-size: 13.6vw;
+  font-size: 17.952vw;
   line-height: 0.9em;
   text-transform: uppercase;
   text-align: left;
@@ -838,7 +864,7 @@ footer .copyright #yearDisplay {
 .works__title {
   margin: 15px 0 8px 0;
   line-height: 1.2em;
-  font-size: 20px;
+  font-size: 26.4px;
   font-weight: 600;
   text-transform: uppercase;
   width: 90%;

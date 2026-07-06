@@ -9,9 +9,6 @@ export const metadata: Metadata = {
 	},
 	description: "Marc Fontenelle - Artiste, Sculpteur",
 	authors: [{ name: "MF" }],
-	icons: {
-		icon: "/images/favicon.png",
-	},
 };
 
 export default function RootLayout({

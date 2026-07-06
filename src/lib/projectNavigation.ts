@@ -1,5 +1,5 @@
 import type { Project } from "@/types/project";
-import { projects } from "@/lib/projects";
+import { normalizeProjectSlug, projects } from "@/lib/projects";
 
 const VISITED_KEY = "marc-fontenelle:visited-projects";
 
@@ -8,34 +8,53 @@ function readVisitedSlugs(): string[] {
 		const stored = sessionStorage.getItem(VISITED_KEY);
 		if (!stored) return [];
 		const parsed = JSON.parse(stored);
-		return Array.isArray(parsed) ? parsed.filter((s) => typeof s === "string") : [];
+		return Array.isArray(parsed)
+			? parsed
+					.filter((s) => typeof s === "string")
+					.map((s) => normalizeProjectSlug(s))
+			: [];
 	} catch {
 		return [];
 	}
 }
 
 function writeVisitedSlugs(slugs: string[]): void {
-	sessionStorage.setItem(VISITED_KEY, JSON.stringify(slugs));
+	sessionStorage.setItem(
+		VISITED_KEY,
+		JSON.stringify(slugs.map((s) => normalizeProjectSlug(s))),
+	);
 }
 
 export function markProjectVisited(slug: string): void {
+	const normalized = normalizeProjectSlug(slug);
 	const visited = readVisitedSlugs();
-	if (visited.includes(slug)) return;
-	writeVisitedSlugs([...visited, slug]);
+	if (visited.includes(normalized)) return;
+	writeVisitedSlugs([...visited, normalized]);
+}
+
+function pickRandomProject(candidates: Project[]): Project | null {
+	if (candidates.length === 0) return null;
+	return candidates[Math.floor(Math.random() * candidates.length)];
 }
 
 export function pickNextUnvisitedProject(currentSlug: string): Project {
-	markProjectVisited(currentSlug);
+	const current = normalizeProjectSlug(currentSlug);
+	markProjectVisited(current);
 
 	const visited = new Set(readVisitedSlugs());
-	const remaining = projects.filter((project) => !visited.has(project.slug));
+	const remaining = projects.filter(
+		(project) => project.slug !== current && !visited.has(project.slug),
+	);
 
-	if (remaining.length > 0) {
-		return remaining[Math.floor(Math.random() * remaining.length)];
-	}
+	const next = pickRandomProject(remaining);
+	if (next) return next;
 
 	// Tous les projets ont été vus : on recommence un nouveau cycle.
-	writeVisitedSlugs([currentSlug]);
-	const others = projects.filter((project) => project.slug !== currentSlug);
-	return others[Math.floor(Math.random() * others.length)];
+	writeVisitedSlugs([current]);
+	const others = projects.filter((project) => project.slug !== current);
+	const recycled = pickRandomProject(others);
+	if (recycled) return recycled;
+
+	// Un seul projet dans le catalogue.
+	return projects.find((project) => project.slug === current) ?? projects[0];
 }

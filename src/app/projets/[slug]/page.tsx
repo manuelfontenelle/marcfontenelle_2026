@@ -6,7 +6,7 @@ import RandomProject, {
 	ProjectNextProvider,
 } from "@/components/RandomProject";
 import { getAllProjectSlugs, getProjectBySlug, normalizeDescription } from "@/lib/projects";
-import { renderDescriptionWithLinks } from "@/components/ProjectDescription";
+import { renderDescriptionParagraph } from "@/components/ProjectDescription";
 
 interface ProjectPageProps {
 	params: Promise<{ slug: string }>;
@@ -89,7 +89,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 							{normalizeDescription(project.description).map(
 								(paragraph, index, paragraphs) => (
 									<span key={index}>
-										{renderDescriptionWithLinks(paragraph)}
+										{renderDescriptionParagraph(paragraph)}
 										{index < paragraphs.length - 1 && (
 											<>
 												<br />

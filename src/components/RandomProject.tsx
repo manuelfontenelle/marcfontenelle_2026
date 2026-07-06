@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import {
 	createContext,
 	useContext,
@@ -9,7 +10,12 @@ import {
 	type ReactNode,
 } from "react";
 import type { Project } from "@/types/project";
-import { formatSlugAsTitle, getProjectPath } from "@/lib/projects";
+import {
+	formatSlugAsTitle,
+	getProjectPath,
+	normalizeProjectSlug,
+	projects,
+} from "@/lib/projects";
 import { pickNextUnvisitedProject } from "@/lib/projectNavigation";
 import ArrowIcon from "@/components/ArrowIcon";
 
@@ -22,11 +28,20 @@ export function ProjectNextProvider({
 	currentSlug: string;
 	children: ReactNode;
 }) {
+	const pathname = usePathname();
 	const [nextProject, setNextProject] = useState<Project | null>(null);
 
 	useEffect(() => {
-		setNextProject(pickNextUnvisitedProject(currentSlug));
-	}, [currentSlug]);
+		const current = normalizeProjectSlug(currentSlug);
+		let next = pickNextUnvisitedProject(currentSlug);
+
+		if (next.slug === current || getProjectPath(next.slug) === pathname) {
+			const alternatives = projects.filter((project) => project.slug !== current);
+			next = alternatives[Math.floor(Math.random() * alternatives.length)] ?? next;
+		}
+
+		setNextProject(next);
+	}, [currentSlug, pathname]);
 
 	return (
 		<NextProjectContext.Provider value={nextProject}>
