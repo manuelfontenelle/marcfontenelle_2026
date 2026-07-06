@@ -98,8 +98,8 @@ export function NextProjectBackLink() {
 			className="right-txt"
 			onClick={() => registerNextNavigation(next.slug)}
 		>
-			<ArrowIcon direction="right" />
 			Projet Suivant
+			<ArrowIcon direction="right" />
 		</Link>
 	);
 }
@@ -127,8 +127,8 @@ export default function RandomProject() {
 						className="right-txt"
 						onClick={() => registerNextNavigation(next.slug)}
 					>
-						<ArrowIcon direction="right" />
 						Projet Suivant
+						<ArrowIcon direction="right" />
 					</Link>
 					<Link
 						href={getProjectPath(next.slug)}
