@@ -1220,11 +1220,17 @@ tr.no-border {
 	display: block;
 }
 .block-prefooter .first-block__block-top__second {
-	display: none;
+	display: block;
+	margin-left: 40px;
+	flex-shrink: 0;
+	opacity: 0.75;
+}
+.block-prefooter .first-block__block-top__second:hover {
+	opacity: 1;
 }
 @media (min-width: 992px) {
 	.block-prefooter .first-block__block-top__second {
-		display: block;
+		margin-left: 60px;
 	}
 }
 .block-prefooter .first-block__block-top__second span {
