@@ -15,7 +15,7 @@ export default function HomePage() {
 	return (
 		<SiteLayout
 			intro={
-				<div className="intro">
+				<div className="intro intro--home">
 					<div className="intro__bio">
 						<h1 className="intro__bio__title">
 							Artiste <span>Sculpteur</span>

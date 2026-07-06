@@ -214,6 +214,28 @@ body.slide-in {
 	}
 }
 
+.intro--home .intro__bio__title {
+	font-size: 35.9px;
+}
+@media (min-width: 992px) {
+	.intro--home .intro__bio__title {
+		font-size: 39.1px;
+	}
+}
+@media (min-width: 1400px) {
+	.intro--home .intro__bio__title {
+		font-size: 44.2px;
+	}
+}
+.intro--home .intro__bandeau-texte__bloc-titre {
+	font-size: 40.4px;
+}
+@media (min-width: 992px) {
+	.intro--home .intro__bandeau-texte__bloc-titre {
+		font-size: 47.6px;
+	}
+}
+
 footer nav {
 	width: 100%;
 	display: flex;
@@ -391,15 +413,16 @@ footer .copyright #yearDisplay {
 }
 .work-single .bloc-pre-detail__bloc2 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	width: 100%;
 	justify-content: space-between;
-	align-items: end;
+	align-items: flex-start;
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
 @media (min-width: 992px) {
 	.work-single .bloc-pre-detail__bloc2 {
+		flex-direction: row;
 		margin-top: inherit;
 		align-items: center;
 	}
@@ -408,12 +431,13 @@ footer .copyright #yearDisplay {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.4em;
-	margin-right: 60px;
+	margin-right: 0;
 }
 @media (min-width: 992px) {
 	.work-single .bloc-pre-detail__bloc2 .desc-project {
 		font-size: 16px;
 		line-height: 1.6em;
+		margin-right: 60px;
 	}
 }
 .work-single .bloc-pre-detail__bloc2 .desc-project a {
@@ -444,35 +468,41 @@ footer .copyright #yearDisplay {
 	line-height: 1em;
 	font-weight: 600;
 	opacity: 0.75;
-	padding: 0;
+	padding: 14px 0px;
 	display: inline-flex;
 	align-items: center;
 	gap: 7px;
 	text-transform: uppercase;
 	position: relative;
 	flex-shrink: 0;
+	margin-top: 12px;
+	align-self: flex-end;
 }
 @media (min-width: 992px) {
 	.work-single .bloc-pre-detail__bloc2 .right-txt {
 		font-size: 16px;
 		padding: 20px 0px;
 		gap: 10px;
+		margin-top: 0;
+		align-self: auto;
 	}
 }
 .work-single .bloc-pre-detail__bloc2 .right-txt:hover {
 	opacity: 1;
 }
-.work-single .bloc-pre-detail__bloc2 .right-txt:hover:before {
-	width: 100%;
-}
-.work-single .bloc-pre-detail__bloc2 .right-txt:before {
-	transition: 600ms;
-	height: 1px;
-	content: "";
-	position: absolute;
-	background-color: #ffffe3;
-	width: 0%;
-	bottom: 10px;
+@media (min-width: 992px) {
+	.work-single .bloc-pre-detail__bloc2 .right-txt:hover:before {
+		width: 100%;
+	}
+	.work-single .bloc-pre-detail__bloc2 .right-txt:before {
+		transition: 600ms;
+		height: 1px;
+		content: "";
+		position: absolute;
+		background-color: #ffffe3;
+		width: 0%;
+		bottom: 10px;
+	}
 }
 .work-single .bloc-pre-detail .title-project {
 	font-size: 39.6px;
@@ -483,6 +513,9 @@ footer .copyright #yearDisplay {
 	margin: 7vh 0 0 0;
 	color: #ffffe3;
 	letter-spacing: 2px;
+	overflow-wrap: break-word;
+	hyphens: auto;
+	-webkit-hyphens: auto;
 }
 @media (min-width: 992px) {
 	.work-single .bloc-pre-detail .title-project {
@@ -746,6 +779,9 @@ footer .copyright #yearDisplay {
 	font-size: 42.24px;
 	font-weight: 600;
 	line-height: 1.1em;
+	overflow-wrap: break-word;
+	hyphens: auto;
+	-webkit-hyphens: auto;
 }
 @media (min-width: 992px) {
 	.random-work .left-txt {
@@ -762,7 +798,7 @@ footer .copyright #yearDisplay {
 	top: 0;
 	font-weight: 600;
 	opacity: 0.75;
-	padding: 0;
+	padding: 14px 0px;
 	display: inline-flex;
 	align-items: center;
 	gap: 7px;
@@ -777,17 +813,19 @@ footer .copyright #yearDisplay {
 .random-work .right-txt:hover {
 	opacity: 1;
 }
-.random-work .right-txt:hover:before {
-	width: 100%;
-}
-.random-work .right-txt:before {
-	transition: 600ms;
-	height: 1px;
-	content: "";
-	position: absolute;
-	background-color: #ffffe3;
-	width: 0%;
-	bottom: 10px;
+@media (min-width: 992px) {
+	.random-work .right-txt:hover:before {
+		width: 100%;
+	}
+	.random-work .right-txt:before {
+		transition: 600ms;
+		height: 1px;
+		content: "";
+		position: absolute;
+		background-color: #ffffe3;
+		width: 0%;
+		bottom: 10px;
+	}
 }
 
 .nav-arrow {
@@ -809,6 +847,11 @@ footer .copyright #yearDisplay {
 	.nav-arrow {
 		width: 14px;
 	}
+}
+
+.work-single .bloc-pre-detail__bloc2 .right-txt,
+.random-work .right-txt {
+	-webkit-tap-highlight-color: transparent;
 }
 
 .work-single .bloc-pre-detail__bloc2 .right-txt .nav-arrow,
