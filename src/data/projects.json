@@ -1,301 +1,301 @@
 [
-	{
-		"slug": "bat",
-		"title": "Bat",
-		"description": "Marc Fontenelle. 2021, Bois de coffrage, découpé, 2 pièces filetages écrous, 70x30cm.",
-		"mainImage": "/images/works/bat/bat.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "bouche-oreille",
-		"title": "Bouche oreille",
-		"description": "Marc Fontenelle, Faïence 2004",
-		"mainImage": "/images/works/bouche-oreille/bouche-oreille.jpg",
-		"galleryImages": ["/images/works/bouche-oreille/bouche-oreille_2.jpg"]
-	},
-	{
-		"slug": "cod",
-		"title": "C.O.D & une transaction dans l’espace, l’espace d’une transaction",
-		"description": "Marc Fontenelle. 2004, Exposition dans une agence immobilière Paris",
-		"mainImage": "/images/works/cod/cod.jpg",
-		"galleryImages": [
-			"/images/works/cod/cod_3.jpg",
-			"/images/works/cod/cod_2.jpg"
-		]
-	},
-	{
-		"slug": "deluxe-rose-&-bleue",
-		"title": "Deluxe Rose & Bleue",
-		"description": "Marc Fontenelle. 2012, briques émaillées montées 40X30X20cm, « La tradition du Dégout » [Galerie Christophe Gaillard Paris](https://galeriegaillard.com/exhibitions/63-la-tradition-du-degout-presentee-par-vincent-labaume-michel-blazy-veronique-boudier-mimosa-echard-marc-fontenelle/overview/)",
-		"mainImage": "/images/works/deluxe/deluxe_2.jpg",
-		"galleryImages": [
-			"/images/works/deluxe/deluxe_3.jpg",
-			"/images/works/deluxe/deluxe_4.jpg"
-		]
-	},
-	{
-		"slug": "disque-double",
-		"title": "Disque Double",
-		"description": "Marc Fontenelle. 2002, Faïence émaillée OR rouge 18 carats. 60x15cm",
-		"mainImage": "/images/works/disque-double/disque-double.jpg",
-		"galleryImages": [
-			"/images/works/disque-double/disque-double_3.jpg",
-			"/images/works/disque-double/disque-double_2.jpg",
-			"/images/works/disque-double/disque-double_4.jpg",
-			"/images/works/disque-double/disque-double_5.jpg"
-		]
-	},
-	{
-		"slug": "disque",
-		"title": "Disque",
-		"description": "Marc Fontenelle. 2020, Dessin encre et résine époxy. 58x42cm.",
-		"mainImage": "/images/works/disque/disque.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "espaces-combinés-turbibulle-&-turbo-mollo",
-		"title": "Espaces combinés, Turbibulle & Turbo-mollo",
-		"description": "Marc Fontenelle. 2008, Musée Bonnat \"le Carré\" 64000 Bayonne",
-		"mainImage": "/images/works/espaces-combinés-turbibulle-&-turbo-mollo/espaces-combinés-turbibulle-&-turbo-mollo.jpg",
-		"galleryImages": [
-			"/images/works/espaces-combinés-turbibulle-&-turbo-mollo/espaces-combinés-turbibulle-&-turbo-mollo_2.jpg",
-			"/images/works/espaces-combinés-turbibulle-&-turbo-mollo/espaces-combinés-turbibulle-&-turbo-mollo_3.jpg",
-			"/images/works/espaces-combinés-turbibulle-&-turbo-mollo/espaces-combinés-turbibulle-&-turbo-mollo_4.jpg"
-		]
-	},
-	{
-		"slug": "fontaine-mairie-de-mauregard",
-		"title": "Aménagement des bassins & abords pour pièces d’eau",
-		"description": "Marc Fontenelle. Maitrise d’oeuvre, Elisabeth Ferron, Architecte, Paysagiste 2007. 77990 Mairie de Mauregard.",
-		"mainImage": "/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard.jpg",
-		"galleryImages": [
-			"/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_2.jpg",
-			"/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_5.jpg",
-			"/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_4.jpg",
-			"/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_7.jpg",
-			"/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_3.jpg",
-			"/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_6.jpg",
-			"/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_8.jpg",
-			"/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_9.jpg"
-		]
-	},
-	{
-		"slug": "gaufrier",
-		"title": "Gaufrier",
-		"description": "Marc Fontenelle. 2009, Galerie Lovenbruck. \nProduction d’une sculpture pour point de fuite dans le cadre de l’année Breuer à Bayonne 64000 Musée basque Gaufrier fer à béton & mortier, 360cm ouvert",
-		"mainImage": "/images/works/gaufrier/gaufrier.jpg",
-		"galleryImages": ["/images/works/gaufrier/gaufrier_2.jpg"]
-	},
-	{
-		"slug": "jardinière",
-		"title": "Jardinière",
-		"description": "Marc Fontenelle. 2015, projet maquette 70x70cm",
-		"mainImage": "/images/works/jardiniere/jardiniere.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "jet-fin",
-		"title": "Jet-fin",
-		"description": "Marc Fontenelle. 2015, Photo d’une femme à palmes. Saint-Malo",
-		"mainImage": "/images/works/jet-fin/jet-fin.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "knights",
-		"title": "Knights",
-		"description": "Marc Fontenelle. 2020, Dessin crayon gommé. 29x42cm.",
-		"mainImage": "/images/works/knights/knights.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "lausanne-jardin",
-		"title": "Lausanne Jardin",
-		"description": "Marc Fontenelle. Nadia Lauro, Laurence Cremel. 2004, Course de légumes Squash cake buro Paris.",
-		"mainImage": "/images/works/lausanne-jardin/lausanne-jardin.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "le-flipot",
-		"title": "Le Flipot",
-		"description": "Marc Fontenelle. Jean-luc Brisson, Stéphanie Buttier 2005. Sculpture, signalétique pour la Mairie de Rouans (Loire-Atlantique)",
-		"mainImage": "/images/works/le-flipot/le-flipot.jpg",
-		"galleryImages": [
-			"/images/works/le-flipot/le-flipot_2.jpg",
-			"/images/works/le-flipot/le-flipot_3.jpg",
-			"/images/works/le-flipot/le-flipot_4.jpg"
-		]
-	},
-	{
-		"slug": "le-jardinier",
-		"title": "Le Jardinier, l’Artiste & l’Ingénieur",
-		"description": "Marc Fontenelle. 2001, Grès émaillé, 120x80cm, Fondation EDF espace Electra Paris.",
-		"mainImage": "/images/works/le-jardinier/le-jardinier-l-artiste-&-l-ingenieur.jpg",
-		"galleryImages": [
-			"/images/works/le-jardinier/le-jardinier-l-artiste-&-l-ingenieur_2.jpg"
-		]
-	},
-	{
-		"slug": "lumps-bumps-and-windy-too",
-		"title": "Lumps Bumps and Windy Too",
-		"description": "Marc Fontenelle. 2005, Réalisation d’une Installation en collaboration avec Jessika Stockholder pour C-CA Musée de Nancy",
-		"mainImage": "/images/works/lumps-bumps-and-windy-too/lumps-bumps-and-windy-too.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "mairie-beganne",
-		"title": "Aménagements paysager pour la Mairie de Béganne",
-		"description": "Marc Fontenelle. \"Banc en Châtaignais de la fontaine de pissat\" 2004. \nBille de Châtaignais, résine époxy orange 200x80cm. Oeuvre in-situ. \n\nMarc Fontenelle. \"Rambarde du belvédère à champs-guy Beganne Morbihan\" 2004. \nBille de chataignier percée de trous afin d'alléger & de tendre vers moins grand opacité. Béganne 56000 Morbihan.",
-		"mainImage": "/images/works/mairie-beganne/mairie-beganne.jpg",
-		"galleryImages": ["/images/works/mairie-beganne/mairie-beganne_2.jpg"]
-	},
-	{
-		"slug": "mémo-calendar",
-		"title": "Mémo calendar",
-		"description": "Marc Fontenelle. 2020, chêne, calendrier, filetages, écrous, 40x20x4cm.",
-		"mainImage": "/images/works/memo-calendar/memo-calendar.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "occupation-des-sols",
-		"title": "Occupation des sols",
-		"description": "Marc Fontenelle, Olivier Marty. 2014, Résidence d’artistes. Réalisation d’un jardin pour Tabakalera San Sébastien / Donostia Espagne. Vidéo : [https://www.youtube.com/watch?v=ov7xdyNocL4](https://www.youtube.com/watch?v=ov7xdyNocL4)",
-		"mainImage": "/images/works/occupation-des-sols/occupation-des-sols.jpg",
-		"galleryImages": [
-			"/images/works/occupation-des-sols/occupation-des-sols_4.jpg",
-			"/images/works/occupation-des-sols/occupation-des-sols_3.jpg"
-		]
-	},
-	{
-		"slug": "organe",
-		"title": "Organe",
-		"description": "Marc Fontenelle. 2015, Dessin crayon, encre. 45x32cm.",
-		"mainImage": "/images/works/organe/organe.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "os",
-		"title": "Os",
-		"description": "Marc Fontenelle. 2021, Os de Sanglier, filletages & écrous, Long : 25cm",
-		"mainImage": "/images/works/os/os.jpg",
-		"galleryImages": ["/images/works/os/os_2.jpg"]
-	},
-	{
-		"slug": "palme-jetfin-&-porte-palme",
-		"title": "Palme Jetfin & porte palme",
-		"description": "Marc Fontenelle. 2003. Sculpture Objet Céramique Faience crue & couverte blanche, long 70cm.",
-		"mainImage": "/images/works/palme-jetfin-&-porte-palme/palme-jetfin-&-porte-palme.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "pense-bête",
-		"title": "Pense Bête",
-		"description": "Marc Fontenelle. 2012, exposition de groupe « la tradition du dégout »,\nCommissaire Vincent Labaume [Galerie Christophe Gaillard Paris](https://galeriegaillard.com/exhibitions/63-la-tradition-du-degout-presentee-par-vincent-labaume-michel-blazy-veronique-boudier-mimosa-echard-marc-fontenelle/overview/)",
-		"mainImage": "/images/works/pense-bete/pense-bete.jpg",
-		"galleryImages": [
-			"/images/works/pense-bete/pense-bete_2.jpg",
-			"/images/works/pense-bete/pense-bete_3.jpg"
-		]
-	},
-	{
-		"slug": "pet-&-troll",
-		"title": "Pet & Troll",
-		"description": "Marc Fontenelle. 2007. Biennale internationale d’Anglet (Pyrénées Atlantiques) Maquette matériaux divers : plantes, bois & métal pour les pièces.",
-		"mainImage": "/images/works/pet-&-troll/pet-&-troll.jpg",
-		"galleryImages": [
-			"/images/works/pet-&-troll/pet-&-troll_2.jpg",
-			"/images/works/pet-&-troll/pet-&-troll_4.jpg",
-			"/images/works/pet-&-troll/pet-&-troll_3.jpg"
-		]
-	},
-	{
-		"slug": "phenemenon",
-		"title": "Phenemenon",
-		"description": "Marc Fontenelle. 2020, Dessin encre & stylo. 29x42cm.",
-		"mainImage": "/images/works/phenemenon/phenemenon.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "polyplac-&-velamen",
-		"title": "Polyplac & Velamen",
-		"description": "Marc Fontenelle. 2020, Contreplaqué découpé, cire d’abeille, 86x60cm.",
-		"mainImage": "/images/works/polyplac-&-velamen/polyplac-&-velamen.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "sans-titre",
-		"title": "Sans Titre",
-		"description": "Marc Fontenelle. 2004, Faïence émaillée émeraude, 50X30cm.",
-		"mainImage": "/images/works/sans-titre/sans-titre.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "sculpture-faïence",
-		"title": "Sculpture Faïence",
-		"description": "Marc Fontenelle. 2005, Faïence 80x40x5cm",
-		"mainImage": "/images/works/sculpture-faïence/sculpture-faïence.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "sculpture-porcelaine",
-		"title": "Sculpture Porcelaine",
-		"description": "Marc Fontenelle. 2005, Porcelaine 60x60x10cm",
-		"mainImage": "/images/works/sculpture-porcelaine/sculpture-porcelaine.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "sculpture-portable",
-		"title": "Sculpture portable",
-		"description": "Marc Fontenelle. 2003, Faience émaillée céladon 60x40cm.",
-		"mainImage": "/images/works/sculpture-portable/sculpture-portable.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "skolem",
-		"title": "Skolem",
-		"description": "Marc Fontenelle. Réalisation d’une sculpture en bronze pour 3-CA & la Fondation de France et Jessika Stockholder, 2007. (Bures/Yvettes) 77000",
-		"mainImage": "/images/works/skolem/skolem.jpg",
-		"galleryImages": ["/images/works/skolem/skolem_2.jpg"]
-	},
-	{
-		"slug": "toupille",
-		"title": "Toupille",
-		"description": "Marc Fontenelle. 2021, Dessin, aquarelle. 42x30cm.",
-		"mainImage": "/images/works/toupille/toupille.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "volume-en-briques",
-		"title": "Volume en briques",
-		"description": "Marc Fontenelle. 2011, Exposition sculpture en brique Maladrerie de Beauvais Oise Volume en briques taillées & résine époxy, 2500 kg",
-		"mainImage": "/images/works/volume-en-briques/volume-en-briques.jpg",
-		"galleryImages": [
-			"/images/works/volume-en-briques/volume-en-briques_3.jpg",
-			"/images/works/volume-en-briques/volume-en-briques_2.jpg",
-			"/images/works/volume-en-briques/volume-en-briques_4.jpg"
-		]
-	},
-	{
-		"slug": "wing",
-		"title": "Wing",
-		"description": "Marc Fontenelle. 2020, Contreplaqué, découpé, filetage. 50x30cm.",
-		"mainImage": "/images/works/wing/wing.jpg",
-		"galleryImages": []
-	},
-	{
-		"slug": "wings",
-		"title": "Wings",
-		"description": "Marc Fontenelle. 2020, Bois de coffrage découpé, filetages, écrous. 92x30cm.",
-		"mainImage": "/images/works/wings/wings.jpg",
-		"galleryImages": ["/images/works/wings/wings_2.jpg"]
-	},
-	{
-		"slug": "étagère",
-		"title": "étagère",
-		"description": "Marc Fontenelle. 2018, bois, métal, dimentions variables",
-		"mainImage": "/images/works/etagere/etagere.jpg",
-		"galleryImages": [
-			"/images/works/etagere/etagere_3.jpg",
-			"/images/works/etagere/etagere_2.jpg"
-		]
-	}
+  {
+    "slug": "bat",
+    "title": "Bat",
+    "description": "Marc Fontenelle.\n 2021, Bois de coffrage, découpé, 2 pièces filetages écrous, 70x30cm.",
+    "mainImage": "/images/works/bat/bat.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "bouche-oreille",
+    "title": "Bouche oreille",
+    "description": "Marc Fontenelle.\n Faïence 2004",
+    "mainImage": "/images/works/bouche-oreille/bouche-oreille.jpg",
+    "galleryImages": ["/images/works/bouche-oreille/bouche-oreille_2.jpg"]
+  },
+  {
+    "slug": "cod",
+    "title": "C.O.D & une transaction dans l’espace, l’espace d’une transaction",
+    "description": "Marc Fontenelle.\n 2004, Exposition dans une agence immobilière Paris",
+    "mainImage": "/images/works/cod/cod.jpg",
+    "galleryImages": [
+      "/images/works/cod/cod_3.jpg",
+      "/images/works/cod/cod_2.jpg"
+    ]
+  },
+  {
+    "slug": "deluxe-rose-&-bleue",
+    "title": "Deluxe Rose & Bleue",
+    "description": "Marc Fontenelle.\n 2012, briques émaillées montées 40X30X20cm, « La tradition du Dégout » [Galerie Christophe Gaillard Paris](https://galeriegaillard.com/exhibitions/63-la-tradition-du-degout-presentee-par-vincent-labaume-michel-blazy-veronique-boudier-mimosa-echard-marc-fontenelle/overview/)",
+    "mainImage": "/images/works/deluxe/deluxe_2.jpg",
+    "galleryImages": [
+      "/images/works/deluxe/deluxe_3.jpg",
+      "/images/works/deluxe/deluxe_4.jpg"
+    ]
+  },
+  {
+    "slug": "disque-double",
+    "title": "Disque Double",
+    "description": "Marc Fontenelle.\n 2002, Faïence émaillée OR rouge 18 carats. 60x15cm",
+    "mainImage": "/images/works/disque-double/disque-double.jpg",
+    "galleryImages": [
+      "/images/works/disque-double/disque-double_3.jpg",
+      "/images/works/disque-double/disque-double_2.jpg",
+      "/images/works/disque-double/disque-double_4.jpg",
+      "/images/works/disque-double/disque-double_5.jpg"
+    ]
+  },
+  {
+    "slug": "disque",
+    "title": "Disque",
+    "description": "Marc Fontenelle.\n 2020, Dessin encre et résine époxy. 58x42cm.",
+    "mainImage": "/images/works/disque/disque.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "espaces-combinés-turbibulle-&-turbo-mollo",
+    "title": "Espaces combinés, Turbibulle & Turbo-mollo",
+    "description": "Marc Fontenelle.\n 2008, Musée Bonnat \"le Carré\" 64000 Bayonne",
+    "mainImage": "/images/works/espaces-combinés-turbibulle-&-turbo-mollo/espaces-combinés-turbibulle-&-turbo-mollo.jpg",
+    "galleryImages": [
+      "/images/works/espaces-combinés-turbibulle-&-turbo-mollo/espaces-combinés-turbibulle-&-turbo-mollo_2.jpg",
+      "/images/works/espaces-combinés-turbibulle-&-turbo-mollo/espaces-combinés-turbibulle-&-turbo-mollo_3.jpg",
+      "/images/works/espaces-combinés-turbibulle-&-turbo-mollo/espaces-combinés-turbibulle-&-turbo-mollo_4.jpg"
+    ]
+  },
+  {
+    "slug": "fontaine-mairie-de-mauregard",
+    "title": "Aménagement des bassins & abords pour pièces d’eau",
+    "description": "Marc Fontenelle.\n Maitrise d’oeuvre, Elisabeth Ferron, Architecte, Paysagiste 2007. 77990 Mairie de Mauregard.",
+    "mainImage": "/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard.jpg",
+    "galleryImages": [
+      "/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_2.jpg",
+      "/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_5.jpg",
+      "/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_4.jpg",
+      "/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_7.jpg",
+      "/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_3.jpg",
+      "/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_6.jpg",
+      "/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_8.jpg",
+      "/images/works/fontaine-mairie-mauregard/fontaine-mairie-mauregard_9.jpg"
+    ]
+  },
+  {
+    "slug": "gaufrier",
+    "title": "Gaufrier",
+    "description": "Marc Fontenelle.\n 2009, Galerie Lovenbruck. \nProduction d’une sculpture pour point de fuite dans le cadre de l’année Breuer à Bayonne 64000 Musée basque.\n Gaufrier fer à béton & mortier, 360cm ouvert",
+    "mainImage": "/images/works/gaufrier/gaufrier.jpg",
+    "galleryImages": ["/images/works/gaufrier/gaufrier_2.jpg"]
+  },
+  {
+    "slug": "jardinière",
+    "title": "Jardinière",
+    "description": "Marc Fontenelle.\n 2015, projet maquette 70x70cm",
+    "mainImage": "/images/works/jardiniere/jardiniere.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "jet-fin",
+    "title": "Jet-fin",
+    "description": "Marc Fontenelle.\n 2015, Photo d’une femme à palmes. Saint-Malo",
+    "mainImage": "/images/works/jet-fin/jet-fin.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "knights",
+    "title": "Knights",
+    "description": "Marc Fontenelle.\n 2020, Dessin crayon gommé. 29x42cm.",
+    "mainImage": "/images/works/knights/knights.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "lausanne-jardin",
+    "title": "Lausanne Jardin",
+    "description": "Marc Fontenelle.\n Nadia Lauro, Laurence Cremel. 2004, Course de légumes Squash cake buro Paris.",
+    "mainImage": "/images/works/lausanne-jardin/lausanne-jardin.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "le-flipot",
+    "title": "Le Flipot",
+    "description": "Marc Fontenelle.\n Jean-luc Brisson, Stéphanie Buttier 2005. Sculpture, signalétique pour la Mairie de Rouans (Loire-Atlantique)",
+    "mainImage": "/images/works/le-flipot/le-flipot.jpg",
+    "galleryImages": [
+      "/images/works/le-flipot/le-flipot_2.jpg",
+      "/images/works/le-flipot/le-flipot_3.jpg",
+      "/images/works/le-flipot/le-flipot_4.jpg"
+    ]
+  },
+  {
+    "slug": "le-jardinier",
+    "title": "Le Jardinier, l’Artiste & l’Ingénieur",
+    "description": "Marc Fontenelle.\n 2001, Grès émaillé, 120x80cm, Fondation EDF espace Electra Paris.",
+    "mainImage": "/images/works/le-jardinier/le-jardinier-l-artiste-&-l-ingenieur.jpg",
+    "galleryImages": [
+      "/images/works/le-jardinier/le-jardinier-l-artiste-&-l-ingenieur_2.jpg"
+    ]
+  },
+  {
+    "slug": "lumps-bumps-and-windy-too",
+    "title": "Lumps Bumps and Windy Too",
+    "description": "Marc Fontenelle.\n 2005, Réalisation d’une Installation en collaboration avec Jessika Stockholder pour C-CA Musée de Nancy",
+    "mainImage": "/images/works/lumps-bumps-and-windy-too/lumps-bumps-and-windy-too.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "mairie-beganne",
+    "title": "Aménagements paysager pour la Mairie de Béganne",
+    "description": "Marc Fontenelle.\n \"Banc en Châtaignais de la fontaine de pissat\" 2004. \nBille de Châtaignais, résine époxy orange 200x80cm. Oeuvre in-situ. \n\nMarc Fontenelle.\n \"Rambarde du belvédère à champs-guy Beganne Morbihan\" 2004. \nBille de chataignier percée de trous afin d'alléger & de tendre vers moins grand opacité. Béganne 56000 Morbihan.",
+    "mainImage": "/images/works/mairie-beganne/mairie-beganne.jpg",
+    "galleryImages": ["/images/works/mairie-beganne/mairie-beganne_2.jpg"]
+  },
+  {
+    "slug": "mémo-calendar",
+    "title": "Mémo calendar",
+    "description": "Marc Fontenelle.\n 2020, chêne, calendrier, filetages, écrous, 40x20x4cm.",
+    "mainImage": "/images/works/memo-calendar/memo-calendar.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "occupation-des-sols",
+    "title": "Occupation des sols",
+    "description": "Marc Fontenelle, Olivier Marty.\n 2014, Résidence d’artistes. Réalisation d’un jardin pour Tabakalera San Sébastien / Donostia Espagne.\n Vidéo : [https://www.youtube.com/watch?v=ov7xdyNocL4](https://www.youtube.com/watch?v=ov7xdyNocL4)",
+    "mainImage": "/images/works/occupation-des-sols/occupation-des-sols.jpg",
+    "galleryImages": [
+      "/images/works/occupation-des-sols/occupation-des-sols_4.jpg",
+      "/images/works/occupation-des-sols/occupation-des-sols_3.jpg"
+    ]
+  },
+  {
+    "slug": "organe",
+    "title": "Organe",
+    "description": "Marc Fontenelle.\n 2015, Dessin crayon, encre. 45x32cm.",
+    "mainImage": "/images/works/organe/organe.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "os",
+    "title": "Os",
+    "description": "Marc Fontenelle.\n 2021, Os de Sanglier, filletages & écrous, Long : 25cm",
+    "mainImage": "/images/works/os/os.jpg",
+    "galleryImages": ["/images/works/os/os_2.jpg"]
+  },
+  {
+    "slug": "palme-jetfin-&-porte-palme",
+    "title": "Palme Jetfin & porte palme",
+    "description": "Marc Fontenelle.\n 2003. Sculpture Objet Céramique Faience crue & couverte blanche, long 70cm.",
+    "mainImage": "/images/works/palme-jetfin-&-porte-palme/palme-jetfin-&-porte-palme.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "pense-bête",
+    "title": "Pense Bête",
+    "description": "Marc Fontenelle.\n 2012, exposition de groupe « la tradition du dégout »,\nCommissaire Vincent Labaume [Galerie Christophe Gaillard Paris](https://galeriegaillard.com/exhibitions/63-la-tradition-du-degout-presentee-par-vincent-labaume-michel-blazy-veronique-boudier-mimosa-echard-marc-fontenelle/overview/)",
+    "mainImage": "/images/works/pense-bete/pense-bete.jpg",
+    "galleryImages": [
+      "/images/works/pense-bete/pense-bete_2.jpg",
+      "/images/works/pense-bete/pense-bete_3.jpg"
+    ]
+  },
+  {
+    "slug": "pet-&-troll",
+    "title": "Pet & Troll",
+    "description": "Marc Fontenelle.\n 2007. Biennale internationale d’Anglet (Pyrénées Atlantiques) Maquette matériaux divers : plantes, bois & métal pour les pièces.",
+    "mainImage": "/images/works/pet-&-troll/pet-&-troll.jpg",
+    "galleryImages": [
+      "/images/works/pet-&-troll/pet-&-troll_2.jpg",
+      "/images/works/pet-&-troll/pet-&-troll_4.jpg",
+      "/images/works/pet-&-troll/pet-&-troll_3.jpg"
+    ]
+  },
+  {
+    "slug": "phenemenon",
+    "title": "Phenemenon",
+    "description": "Marc Fontenelle.\n 2020, Dessin encre & stylo. 29x42cm.",
+    "mainImage": "/images/works/phenemenon/phenemenon.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "polyplac-&-velamen",
+    "title": "Polyplac & Velamen",
+    "description": "Marc Fontenelle.\n 2020, Contreplaqué découpé, cire d’abeille, 86x60cm.",
+    "mainImage": "/images/works/polyplac-&-velamen/polyplac-&-velamen.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "sans-titre",
+    "title": "Sans Titre",
+    "description": "Marc Fontenelle.\n 2004, Faïence émaillée émeraude, 50X30cm.",
+    "mainImage": "/images/works/sans-titre/sans-titre.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "sculpture-faïence",
+    "title": "Sculpture Faïence",
+    "description": "Marc Fontenelle.\n 2005, Faïence 80x40x5cm",
+    "mainImage": "/images/works/sculpture-faïence/sculpture-faïence.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "sculpture-porcelaine",
+    "title": "Sculpture Porcelaine",
+    "description": "Marc Fontenelle.\n 2005, Porcelaine 60x60x10cm",
+    "mainImage": "/images/works/sculpture-porcelaine/sculpture-porcelaine.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "sculpture-portable",
+    "title": "Sculpture portable",
+    "description": "Marc Fontenelle.\n 2003, Faience émaillée céladon 60x40cm.",
+    "mainImage": "/images/works/sculpture-portable/sculpture-portable.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "skolem",
+    "title": "Skolem",
+    "description": "Marc Fontenelle.\n Réalisation d’une sculpture en bronze pour 3-CA & la Fondation de France et Jessika Stockholder, 2007. (Bures/Yvettes) 77000",
+    "mainImage": "/images/works/skolem/skolem.jpg",
+    "galleryImages": ["/images/works/skolem/skolem_2.jpg"]
+  },
+  {
+    "slug": "toupille",
+    "title": "Toupille",
+    "description": "Marc Fontenelle.\n 2021, Dessin, aquarelle. 42x30cm.",
+    "mainImage": "/images/works/toupille/toupille.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "volume-en-briques",
+    "title": "Volume en briques",
+    "description": "Marc Fontenelle.\n 2011, Exposition sculpture en brique Maladrerie de Beauvais Oise Volume en briques taillées & résine époxy, 2500 kg",
+    "mainImage": "/images/works/volume-en-briques/volume-en-briques.jpg",
+    "galleryImages": [
+      "/images/works/volume-en-briques/volume-en-briques_3.jpg",
+      "/images/works/volume-en-briques/volume-en-briques_2.jpg",
+      "/images/works/volume-en-briques/volume-en-briques_4.jpg"
+    ]
+  },
+  {
+    "slug": "wing",
+    "title": "Wing",
+    "description": "Marc Fontenelle.\n 2020, Contreplaqué, découpé, filetage. 50x30cm.",
+    "mainImage": "/images/works/wing/wing.jpg",
+    "galleryImages": []
+  },
+  {
+    "slug": "wings",
+    "title": "Wings",
+    "description": "Marc Fontenelle.\n 2020, Bois de coffrage découpé, filetages, écrous. 92x30cm.",
+    "mainImage": "/images/works/wings/wings.jpg",
+    "galleryImages": ["/images/works/wings/wings_2.jpg"]
+  },
+  {
+    "slug": "étagère",
+    "title": "étagère",
+    "description": "Marc Fontenelle.\n 2018, bois, métal, dimentions variables",
+    "mainImage": "/images/works/etagere/etagere.jpg",
+    "galleryImages": [
+      "/images/works/etagere/etagere_3.jpg",
+      "/images/works/etagere/etagere_2.jpg"
+    ]
+  }
 ]
