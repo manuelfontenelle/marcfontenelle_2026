@@ -199,7 +199,7 @@ body.slide-in {
 .intro__bandeau-texte__bloc-titre {
   font-weight: 600;
   width: 50%;
-  font-size: 47.52px;
+  font-size: 40.4px;
   text-transform: uppercase;
   text-align: left;
   line-height: 1em;
@@ -210,28 +210,6 @@ body.slide-in {
 @media (min-width: 992px) {
   .intro__bandeau-texte__bloc-titre {
     text-align: right;
-    font-size: 56px;
-  }
-}
-
-.intro--home .intro__bio__title {
-  font-size: 35.9px;
-}
-@media (min-width: 992px) {
-  .intro--home .intro__bio__title {
-    font-size: 39.1px;
-  }
-}
-@media (min-width: 1400px) {
-  .intro--home .intro__bio__title {
-    font-size: 44.2px;
-  }
-}
-.intro--home .intro__bandeau-texte__bloc-titre {
-  font-size: 40.4px;
-}
-@media (min-width: 992px) {
-  .intro--home .intro__bandeau-texte__bloc-titre {
     font-size: 47.6px;
   }
 }
