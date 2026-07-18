@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 interface PrefooterProps {
@@ -26,9 +27,12 @@ export default function Prefooter({ variant = "default" }: PrefooterProps) {
 					<div className="first-block__block-top__first">
 						Vous avez un projet ?<span>Parlons-en</span>
 					</div>
-					<div className="first-block__block-top__second">
+					<Link
+						href="/contact"
+						className="first-block__block-top__second"
+					>
 						Envoyez-moi<span>Un message</span>
-					</div>
+					</Link>
 				</div>
 				<div
 					className="first-block__block-mail"
