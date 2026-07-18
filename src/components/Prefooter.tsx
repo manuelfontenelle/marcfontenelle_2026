@@ -44,18 +44,6 @@ export default function Prefooter({ variant = "default" }: PrefooterProps) {
 					<div id="mailToCopy">{email}</div>
 				</div>
 			</div>
-			<img
-				className="prefooter-arrowtop"
-				id="scrollTop"
-				src="/images/arrow-down.svg"
-				alt=""
-				onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-				onKeyDown={(e) =>
-					e.key === "Enter" && window.scrollTo({ top: 0, behavior: "smooth" })
-				}
-				role="button"
-				tabIndex={0}
-			/>
 		</div>
 	);
 }
