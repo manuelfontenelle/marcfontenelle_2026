@@ -261,6 +261,7 @@ footer nav .nav-droite {
 @media (min-width: 992px) {
   footer nav .nav-droite {
     display: flex;
+    justify-content: space-around;
   }
 }
 footer nav ul {
